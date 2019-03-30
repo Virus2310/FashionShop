@@ -1,0 +1,28 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+@import '../base/base';
+@import '../base/fonts';
+@import '../components/button';
+@import '../layout/header';
+
+
+// Navigation
+
+.menu{
+    &__item{
+        list-style: none;
+    }
+
+    &__link{
+        color:$text-color;
+        @include font-semibold;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        /* Text style for "Home     S" */
+        letter-spacing: 3.6px;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

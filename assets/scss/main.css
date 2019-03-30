@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("Poppins-Regular.eot");
+  src: url("Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("Poppins-Regular.woff") format("woff"), url("assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("Poppins-Medium.eot");
+  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff") format("woff"), url("assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Semibold';
+  src: url("Poppins-SemiBold.eot");
+  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff") format("woff"), url("assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/**
+*/
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("Poppins-Regular.eot");
+  src: url("Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("Poppins-Regular.woff") format("woff"), url("assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("Poppins-Medium.eot");
+  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff") format("woff"), url("assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Semibold';
+  src: url("Poppins-SemiBold.eot");
+  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff") format("woff"), url("assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+ * Basic typography style for copy text
+ */
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("Poppins-Regular.eot");
+  src: url("Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("Poppins-Regular.woff") format("woff"), url("assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("Poppins-Medium.eot");
+  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff") format("woff"), url("assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Semibold';
+  src: url("Poppins-SemiBold.eot");
+  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff") format("woff"), url("assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/**
+*/
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("Poppins-Regular.eot");
+  src: url("Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("Poppins-Regular.woff") format("woff"), url("assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("Poppins-Medium.eot");
+  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff") format("woff"), url("assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Semibold';
+  src: url("Poppins-SemiBold.eot");
+  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff") format("woff"), url("assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar-mobile__items {
+  padding: 20px 0px;
+}
+
+.navbar-mobile__item {
+  color: #222222;
+}
+
+.navbar-mobile__item:hover {
+  text-decoration: none;
+  color: indigo;
+}
+
+.navbar-mobile__item span {
+  color: #666666;
+}
+
+.navbar {
+  border-top: 1px solid red;
+}
+
+.navbar-brand__logo {
+  padding: 10px 0px;
+}
+
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("Poppins-Regular.eot");
+  src: url("Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("Poppins-Regular.woff") format("woff"), url("assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("Poppins-Medium.eot");
+  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff") format("woff"), url("assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Semibold';
+  src: url("Poppins-SemiBold.eot");
+  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff") format("woff"), url("assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/**
+*/
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("Poppins-Regular.eot");
+  src: url("Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("Poppins-Regular.woff") format("woff"), url("assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("Poppins-Medium.eot");
+  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff") format("woff"), url("assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Semibold';
+  src: url("Poppins-SemiBold.eot");
+  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff") format("woff"), url("assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("Poppins-Regular.eot");
+  src: url("Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("Poppins-Regular.woff") format("woff"), url("assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("Poppins-Medium.eot");
+  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff") format("woff"), url("assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Semibold';
+  src: url("Poppins-SemiBold.eot");
+  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff") format("woff"), url("assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/**
+*/
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("Poppins-Regular.eot");
+  src: url("Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("Poppins-Regular.woff") format("woff"), url("assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("Poppins-Medium.eot");
+  src: url("Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff") format("woff"), url("assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Semibold';
+  src: url("Poppins-SemiBold.eot");
+  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff") format("woff"), url("assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar-mobile__items {
+  padding: 20px 0px;
+}
+
+.navbar-mobile__item {
+  color: #222222;
+}
+
+.navbar-mobile__item:hover {
+  text-decoration: none;
+  color: indigo;
+}
+
+.navbar-mobile__item span {
+  color: #666666;
+}
+
+.navbar {
+  border-top: 1px solid red;
+}
+
+.navbar-brand__logo {
+  padding: 10px 0px;
+}
+
+.menu__item {
+  list-style: none;
+}
+
+.menu__link {
+  color: black;
+  font-family: 'Poppins Semibold',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* Text style for "Home     S" */
+  letter-spacing: 3.6px;
+}
+
+.menu__link:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */

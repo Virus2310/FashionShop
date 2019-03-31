@@ -1,0 +1,112 @@
+@import 'base';
+
+// Меню, шапка, футер, сайдбар, форми
+
+// Основні стилі 
+
+.navbar-mobile{    
+    
+    &__items{
+        padding: 10px 0px;
+
+    }
+
+    &__item{
+        color: $main-color;
+        &:hover{
+            text-decoration: none;
+            color: indigo;
+        }
+        span{
+            color: #666666;
+        }
+    }
+}
+
+
+
+
+// Navigation
+
+.navbar{
+    border-top: 1px solid red;
+    &-brand{
+        &__logo{
+            padding: 10px 0px;
+        }
+    }    
+}
+
+.menu{
+    &__item{
+        list-style: none;
+    }
+
+    &__link{
+        color:$text-color;
+        font-family: $font-semibold;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        /* Text style for "Home     S" */
+        letter-spacing: 3.6px;
+        position: relative;
+        &:hover{
+            text-decoration: none;
+            color: $main-color;
+        }
+        &:before {
+            left: 0;
+            bottom: 0;
+            top: 25px;
+            width: 100%;
+            height: 2px;
+            background: $hover;
+            transform:  scaleX(0);
+        }
+        &:hover:before {
+            transform:  scaleX(1);
+        }
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            transition: transform .3s ease;
+        }
+    }
+}
+
+.users-list{
+    list-style: none;
+    &__item{
+        a{
+            color: $main-color;
+        }
+    }
+}
+
+
+// Banner
+
+.sale-banner{
+    background: url('../images/main-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.sale-block{
+    &__title{
+        color:$main-color;
+        font-family: $font-semibold;
+        font-size: 150px;
+        font-weight: 700;
+        padding-top: 80px;
+    }
+
+    &__subtitle{
+        color: $main-color;
+        font-family:$font-semibold;
+        font-size: 62px;
+        font-weight: 600;
+    }
+}

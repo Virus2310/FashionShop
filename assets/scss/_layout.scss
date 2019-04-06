@@ -85,13 +85,14 @@
 }
 
 
-// Banner
+// Banner + Slider
 
 .sale-banner{
     background: url('../images/main-background.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 85vh;
+    position: relative;
 }
 
 .sale-block{
@@ -100,7 +101,7 @@
         font-family: $font-semibold;
         font-size: 150px;
         font-weight: 700;
-        padding-top: 80px;
+        padding-top: 120px;
     }
 
     &__subtitle{
@@ -108,5 +109,71 @@
         font-family:$font-semibold;
         font-size: 62px;
         font-weight: 600;
+        padding-bottom: 20px;
+    }
+}
+
+// Slider
+
+.dots-style{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    .slick-active{
+        background-color: white;
+        border-radius: 100px;
+        outline: none;
+        margin-left: 15px;
+    }
+    li > button{
+        background: none;
+        padding: 2px 8px;
+        outline: none;
+        border: none;
+        content: '';
+    }
+}
+
+.slick-prev{
+        display: none;
+}
+
+// Sale Products
+
+
+
+.products-block__title {
+    color:$main-color;
+    font-family: $font-semibold;
+    font-size: 40px;
+    font-weight: 600;
+    border-bottom: 4px solid $main-color;
+    margin-top: 50px;
+}
+
+.products-block__link {
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.sale-block{
+    margin-top: 30px;
+    &__desc{
+        color: $main-color;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &__price{
+        color: #222222;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
     }
 }

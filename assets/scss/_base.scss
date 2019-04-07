@@ -22,10 +22,8 @@
 
 @font-face {
   font-family: 'Poppins Semibold';
-  src: url('Poppins-SemiBold.eot');
-  src: url('Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
-      url('Poppins-SemiBold.woff') format('woff'),
-      url('assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+  src:url('Poppins-SemiBold.woff') format('woff'),
+      url('/assets/fonts/Poppins-SemiBold.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -38,7 +36,7 @@ $other-color:#f4d06f;
 
 $font-regular: 'Poppins Regular', sans-serif;
 $font-medium: 'Poppins Medium', sans-serif;
-$font-semibold: 'Poppins Semibold',sans-serif;
+$font-semibold: 'Poppins Semibold', sans-serif;
 
 $bg: #0BAAD4;
 $hover: darken($bg, 10%);

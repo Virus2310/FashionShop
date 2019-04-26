@@ -144,8 +144,6 @@
 
 // Sale Products
 
-
-
 .products-block__title {
     color:$main-color;
     font-family: $font-semibold;
@@ -171,10 +169,15 @@
     }
 
     &__price{
+        display: block;
         color: #222222;
         font-family: Poppins;
         font-size: 24px;
         font-weight: 700;
         text-transform: uppercase;
+    }
+
+    &__btn_add{
+       
     }
 }
